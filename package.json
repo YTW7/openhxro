@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "dev": "webpack serve --env NODE_ENV=development --hot --open",
+    "dev": "webpack serve ",
     "build:staging": "vite build ----mode staging",
     "build": "webpack --env NODE_ENV=production --env production",
     "preview": "webpack serve --env NODE_ENV=production --env production --hot --open",
